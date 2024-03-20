@@ -15,10 +15,8 @@ const Navbar = () => {
       <div>
           <img src={image} alt="" className='w-[60px] h-[60px] rounded-full' />
       </div>
-
-
       
-        <ul className='text-white hidden md:flex gap-4 text-xl'>
+        <ul className='text-white hidden md:flex gap-3 text-l'>
           <li className='hover:text-orange-500'>
               <Link to="home" smooth={true} duration={500}>
                   Home

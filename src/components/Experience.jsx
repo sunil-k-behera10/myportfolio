@@ -18,11 +18,11 @@ import { EffectCoverflow, Pagination,Autoplay } from 'swiper/modules';
 
 const Experience = () => {
   return (
-    <div name='experience' className='relative z-[-10] w-full h-screen text-gray-300 bg-[#0a192f] pt-16'>
+    <div name='experience' className='relative z-[-10] w-full h-screen text-[#36454F] bg-[#fff9cd] pt-24'>
       <div className='max-w-[1080px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
           <p className='text-4xl font-bold inline border-b-orange-500 border-b-4'>Experience</p>
-          <p className='py-4' >The experience I've earned after completing these projects.</p>
+          <p className='py-4 pt-8' >The experience I've earned after completing these projects.</p>
         </div>
             <Swiper 
               effect={'coverflow'}
@@ -43,7 +43,7 @@ const Experience = () => {
               }}
               pagination={true}
               modules={[EffectCoverflow, Pagination, Autoplay]}
-              className="mySwiper"
+              className="mySwiper h-[500px] rounded-lg pb-7"
             >
               <SwiperSlide>
                 <img src={design}/>
